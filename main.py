@@ -2,7 +2,6 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-# Currently you can only put in "0 0.25 0.5 0.75" four numbers to see the color changing
 
 import tkinter
 import math
@@ -26,6 +25,7 @@ text1 = tkinter.Label(window,text="joy")
 text2 = tkinter.Label(window,text="relaxation")
 text3 = tkinter.Label(window,text="fear")
 text4 = tkinter.Label(window,text="sadness")
+text5 = tkinter.Label(window,text="only 0 0.25 0.5 0.75 four numbers are available")
 E1 = tkinter.Entry(window, bd=5)
 E2 = tkinter.Entry(window, bd=5)
 E3 = tkinter.Entry(window, bd=5)
@@ -38,6 +38,7 @@ text3.pack()
 E3.pack()
 text4.pack()
 E4.pack()
+text5.pack()
 canvas = tkinter.Canvas(window, width=800, height=500, bg="white")
 def helloCallBack():
     window.update()
