@@ -55,21 +55,5 @@ B = tkinter.Button(text="generate", command=helloCallBack)
 B.pack()
 
 window.mainloop()
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-def rgb2hex(rgbcolor):
-  r, g, b = rgbcolor
-  return (r << 16) + (g << 8) + b
-'''
-def color_finder(joy,relaxation,fear,sadness):
-    joy_list={"0":[64,0,0],"0.25":[191,0,0],"0.5":[255,64,64],"0.75":[255,0,0]}
-    relaxation_list={"0":[255, 255, 255],"0.25":[96,191,0],"0.5":[159,255,64],"0.75":[223,255,191]}
-    fear_list = {"0": [255, 255, 255], "0.25": [191,128,255], "0.5": [96,0,191], "0.75": [32,0,64]}
-    sadness_list = {"0": [255, 255, 255], "0.25": [128, 191, 255], "0.5": [0,128,255], "0.75": [0,0, 0]}
-    return [math.floor((joy_list[joy][0]+relaxation_list[relaxation][0]+fear_list[fear][0]+sadness_list[sadness][0])/4),
-            math.floor((245+joy_list[joy][1]+relaxation_list[relaxation][1]+fear_list[fear][1]+sadness_list[sadness][1])/4),
-            math.floor((255+joy_list[joy][2]+relaxation_list[relaxation][2]+fear_list[fear][2]+sadness_list[sadness][2])/4)]
 
-'''
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
